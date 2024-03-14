@@ -1,0 +1,14 @@
+@import '../../scss/mixins/aspect-ratio';
+
+.Card {
+  grid-column: span 4;
+  margin-bottom: 24px;
+}
+
+.CardImageWrap {
+  @include aspect-ratio(345, 264);
+}
+
+.Rating {
+  margin-bottom: 10px;
+}
